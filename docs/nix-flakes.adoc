@@ -59,14 +59,6 @@ $ nix --extra-experimental-features "nix-command flakes" <sub-commands>
 $ home-manager --extra-experimental-features "nix-command flakes" <sub-commands>
 ----
 
-* Prepare your Home Manager configuration (`home.nix`).
-+
-Unlike the channel-based setup,
-`home.nix` will be evaluated when the flake is built,
-so it must be present before bootstrap of Home Manager from the flake.
-See <<sec-usage-configuration>> for introduction about
-writing a Home Manager configuration.
-
 [[sec-flakes-standalone]]
 === Standalone setup
 
